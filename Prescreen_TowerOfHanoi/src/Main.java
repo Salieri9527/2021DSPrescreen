@@ -16,6 +16,6 @@ public class Main {
 	public static void testExecute(int disk) {
 		HanoiTower t = new HanoiTower(disk);
 		t.start();
-		System.out.println("Total time: "+t.getTimes()); //total times by formular
+		System.out.println("Total time: "+t.getTimes()); //total times by formula
 	}
 }
